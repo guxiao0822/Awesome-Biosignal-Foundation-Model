@@ -185,8 +185,6 @@ The field of biosignal foundation models can be organized into three converging 
 
 ---
 
-[🚨 **Todo:** Please check the correctness of summaries below]
-
 - **[ICLR, 2025]** PaPaGei: Open Foundation Models for Optical Physiological Signals [[paper]](https://arxiv.org/abs/2410.20542) [[code]](https://github.com/nokia-bell-labs/papagei-foundation-model) - *Benchmarked against **Chronos and MOMENT** for PPG analysis, demonstrated transferable features from general time series FMs*
 - **[ML4H, 2024]** Are time series foundation models ready for vital sign forecasting in healthcare? [[paper]](https://proceedings.mlr.press/v259/gu25a.html) - *Adapted **Lag-LLaMA, TimesFM, MOMENT, Moirai, Chronos** for vital sign forecasting using feature extraction approach*
 - **[ICMI, 2024]** Low-rank adaptation of time series foundational models for out-of-domain modality forecasting [[paper]](https://arxiv.org/abs/2405.10216) - *LoRA techniques applied to **Moirai and Chronos** for cross-domain biosignal adaptation*
