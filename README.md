@@ -89,21 +89,21 @@ The field of biosignal foundation models can be organized into three converging 
 
 ### Preprocessing Toolboxes and Packages
 
-| Toolbox/Package | Modality | Link |
-|-----------------|----------|------|
-| **MNE-Python** | `EEG`| [[tool]](https://mne.tools/stable/) |
-| **NeuroKit** | `ECG` `PPG` `Resp` `EMG` | [[tool]](https://github.com/neuropsychology/NeuroKit) |
-| **HeartPy** | `ECG` `PPG` | [[tool]](https://python-heart-rate-analysis-toolkit.readthedocs.io/en/latest/) |
-| **pyHRV** | `ECG` `PPG` | [[tool]](https://pyhrv.readthedocs.io/en/latest/) |
-| **BIOBSS** | `ECG` `PPG` `IMU` | [[tool]](https://github.com/obss/BIOBSS) |
-| **BioSPPy** | `ECG` `PPG` `EEG` `Resp` `EMG` `PCG` | [[tool]](https://github.com/scientisst/BioSPPy) |
-| **PyPhysio** | `ECG` `PPG` `IMU` | [[tool]](https://gitlab.com/a.bizzego/pyphysio) |
-| **EEGLAB** | `EEG` | [[tool]](https://eeglab.org/) |
-| **Vital-Sqi** | `ECG` `PPG` | [[tool]](https://github.com/meta00/vital_sqi) |
-| **PhysioKit** | `PPG` `Resp` | [[tool]](https://github.com/PhysiologicAILab/PhysioKit) |
-| **PPGFeat** | `PPG` | [[tool]](https://github.com/saadsur/PPGFeat) |
+| Toolbox/Package  | Modality | Link |
+|------------------|----------|------|
+| **MNE-Python**   | `EEG`| [[tool]](https://mne.tools/stable/) |
+| **NeuroKit**     | `ECG` `PPG` `Resp` `EMG` | [[tool]](https://github.com/neuropsychology/NeuroKit) |
+| **HeartPy**      | `ECG` `PPG` | [[tool]](https://python-heart-rate-analysis-toolkit.readthedocs.io/en/latest/) |
+| **pyHRV**        | `ECG` `PPG` | [[tool]](https://pyhrv.readthedocs.io/en/latest/) |
+| **BIOBSS**       | `ECG` `PPG` `IMU` | [[tool]](https://github.com/obss/BIOBSS) |
+| **BioSPPy**      | `ECG` `PPG` `EEG` `Resp` `EMG` `PCG` | [[tool]](https://github.com/scientisst/BioSPPy) |
+| **PyPhysio**     | `ECG` `PPG` `IMU` | [[tool]](https://gitlab.com/a.bizzego/pyphysio) |
+| **EEGLAB**       | `EEG` | [[tool]](https://eeglab.org/) |
+| **Vital-Sqi**    | `ECG` `PPG` | [[tool]](https://github.com/meta00/vital_sqi) |
+| **PhysioKit**    | `PPG` `Resp` | [[tool]](https://github.com/PhysiologicAILab/PhysioKit) |
+| **PPGFeat**      | `PPG` | [[tool]](https://github.com/saadsur/PPGFeat) |
 | **WFDB Toolbox** | `ECG` `PPG` `EEG` `Resp` `ABP` `EMG` | [[tool]](https://physionet.org/content/wfdb-matlab/0.10.0/) |
-
+| **PyPPG**        | `PPG` | [[tool]](https://pyppg.readthedocs.io/) |
 ## 🏗️ Pretraining Biosignal Foundation Models from Scratch
 <!-- Badge Definitions -->
 [ECG]: <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/>
@@ -114,10 +114,11 @@ The field of biosignal foundation models can be organized into three converging 
 
 *Building dedicated foundation models using large biosignal corpora*
 
-- **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM)
+- **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM) 
 - **[ICML, 2025]** From Token to Rhythm: A Multi-Scale Approach for ECG-Language Pretraining <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://openreview.net/forum?id=fUjkoGUre0) [[code]](https://github.com/HKU-MedAI/MELP)
 - **[ICML, 2025]** Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://openreview.net/pdf?id=mM65b81LdM) [[code]]( https://github.com/manhph2211/D-BETA)
 - **[ICML, 2025]** Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions<img src="https://img.shields.io/badge/Health--metrics-lightblue" alt="Health-metrics"  height="16"/> [[paper]](https://openreview.net/forum?id=DtVVltU1ak) 
+- **[Nature, 2025]** A generic noninvasive neuromotor interface for human-computer interaction <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> [[paper]](https://www.nature.com/articles/s41586-025-09255-w)
 - **[UbiComp, 2025]** Pulse-PPG: An Open-Source Field-Trained PPG Foundation Model for Wearable Applications Across Lab and Field Settings <img src="https://img.shields.io/badge/PPG-purple" alt="PPG" height="16"/> [[paper]](https://arxiv.org/abs/2502.01108) [[code]](https://github.com/maxxu05/pulseppg)
 - **[ICLR, 2025]** CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2412.07236) [[code]](https://github.com/wjq-learning/CBraMod)
 - **[ICLR, 2025]** Reading Your Heart: Learning ECG Words and Sentences via Pre-training ECG Language Model* <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://arxiv.org/abs/2502.10707) [[code]](https://github.com/PKUDigitalHealth/HeartLang)
@@ -139,7 +140,6 @@ The field of biosignal foundation models can be organized into three converging 
 - **[Arxiv, 2024]** BrainWave: A Brain Signal Foundation Model for Clinical Applications <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2402.10251) [[code]](https://github.com/yzz673/Brant-2)
 - **[Arxiv, 2024]** Foundation Models for ECG: Leveraging Hybrid Self-Supervised Learning for Advanced Cardiac Diagnostics <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://arxiv.org/pdf/2407.07110)
 - **[Arxiv, 2024]** Scaling Wearable Foundation Models <img src="https://img.shields.io/badge/Health--metrics-lightblue" alt="Health-metrics" height="16"/> [[paper]](https://arxiv.org/pdf/2410.13638)
-- **[Arxiv, 2024]** A generic noninvasive neuromotor interface for human-computer interaction <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> [[paper]](https://www.biorxiv.org/content/10.1101/2024.02.23.581779v1.full.pdf)
 - **[Arxiv, 2024]** Wearable Accelerometer Foundation Models for Health via Knowledge Distillation <img src="https://img.shields.io/badge/PPG-purple" alt="PPG" height="16"/> <img src="https://img.shields.io/badge/IMU-orange" alt="IMU" height="16"/> [[paper]](https://arxiv.org/abs/2412.11276)
 - **[Arxiv, 2024]** Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> <img src="https://img.shields.io/badge/PPG-purple" alt="PPG" height="16"/> <img src="https://img.shields.io/badge/IMU-orange" alt="IMU" height="16"/> <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> [[paper]](https://arxiv.org/abs/2412.09758) [[code]](https://github.com/Mobile-Sensing-and-UbiComp-Laboratory/NormWear)
 - **[Arxiv, 2024]** Foundation Models for ECG: Leveraging Hybrid Self-Supervised Learning for Advanced Cardiac Diagnostics <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://arxiv.org/pdf/2407.07110)
@@ -187,16 +187,20 @@ The field of biosignal foundation models can be organized into three converging 
 
 </details>
 
+**TSFM adaptation**
 ---
-- **[ICML, 2025]** Efficient Personalized Adaptation for Physiological Signal Foundation Model [[paper]](https://openreview.net/pdf?id=55ysNwbOTI) 
-- **[ICML, 2025]** H-Tuning: Toward Low-Cost and Efficient ECG-based Cardiovascular Disease Detection with Pre-Trained Models [[paper]](https://openreview.net/pdf?id=RLu1QIPiVr) [[code]](https://github.com/KAZABANA/H-Tuning)
-- **[ICML, 2025]** Pre-Training Graph Contrastive Masked Autoencoders are Strong Distillers for EEG [[paper]](https://openreview.net/pdf?id=YKfJFTiRz8)
+- **[ICML, 2025]** Efficient Personalized Adaptation for Physiological Signal Foundation Model [[paper]](https://openreview.net/pdf?id=55ysNwbOTI) - *Applied diffusion to generate LoRA weights for adaptation of FMs*
 - **[ICLR, 2025]** PaPaGei: Open Foundation Models for Optical Physiological Signals [[paper]](https://arxiv.org/abs/2410.20542) [[code]](https://github.com/nokia-bell-labs/papagei-foundation-model) - *Benchmarked against **Chronos and MOMENT** for PPG analysis, demonstrated transferable features from general time series FMs*
 - **[ML4H, 2024]** Are time series foundation models ready for vital sign forecasting in healthcare? [[paper]](https://proceedings.mlr.press/v259/gu25a.html) - *Adapted **Lag-LLaMA, TimesFM, MOMENT, Moirai, Chronos** for vital sign forecasting using feature extraction approach*
 - **[ICMI, 2024]** Low-rank adaptation of time series foundational models for out-of-domain modality forecasting [[paper]](https://arxiv.org/abs/2405.10216) - *LoRA techniques applied to **Moirai and Chronos** for cross-domain biosignal adaptation*
 - **[Arxiv, 2024]** Beyond LoRA: Exploring Efficient Fine-Tuning Techniques for Time Series Foundational Models [[paper]](https://arxiv.org/abs/2409.11302) - *Applied LoRA, QLoRA, and other PEFT techniques to **Lag-LLaMA** for biomedical time series adaptation*
 - **[Arxiv, 2024]** Generalized Prompt Tuning: Adapting frozen univariate time series foundation models for multivariate healthcare time series [[paper]](https://arxiv.org/abs/2411.12824) [[code]](https://github.com/Ilovecodingforever/Gen-P-Tuning) - *Gen-P-Tuning module for adapting **univariate time series FMs** (MOMENT) to multivariate clinical data*
 - **[Arxiv, 2024]** Repurposing Foundation Model for Generalizable Medical Time Series Classification [[paper]](https://arxiv.org/abs/2410.03794) - *FORMED method repurposing **TimesFM** to classification tasks with post-processing modules*
+
+**Other related works**
+---
+- **[ICML, 2025]** H-Tuning: Toward Low-Cost and Efficient ECG-based Cardiovascular Disease Detection with Pre-Trained Models [[paper]](https://openreview.net/pdf?id=RLu1QIPiVr) [[code]](https://github.com/KAZABANA/H-Tuning)
+- **[ICML, 2025]** Pre-Training Graph Contrastive Masked Autoencoders are Strong Distillers for EEG [[paper]](https://openreview.net/pdf?id=YKfJFTiRz8) [[code]](https://github.com/weixinxu666/EEG_DisGCMAE)
 
 ## 🤖 Leveraging Large Language Models for Biosignal Analysis
 
@@ -212,8 +216,8 @@ The field of biosignal foundation models can be organized into three converging 
 
 Four functional roles of LLMs: ![tool][backbone] ![tool][knowledge] ![tool][fusion] ![tool][agent]
 
-- **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM)
-- **[ICML, 2025]** Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://openreview.net/pdf?id=mM65b81LdM) [[code]]( https://github.com/manhph2211/D-BETA)
+- **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM)- *EEG-Modal-LLM alignment for knowledge integration*
+- **[ICML, 2025]** Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://openreview.net/pdf?id=mM65b81LdM) [[code]]( https://github.com/manhph2211/D-BETA) - *ECG-text-report integration via contrastive masked autoencoding*
 - **[IEEE TBD, 2025]** Large Language Model-informed ECG Dual Attention Network for Heart Failure Risk Prediction <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://arxiv.org/abs/2403.10581) - *Heart failure risk prediction using LLM-informed dual attention network with ECG time sequences*
 - **[SPI Health Data Science, 2025]** ECG-LM: Understanding Electrocardiogram with a Large Language Model <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/🔗-Fusion-purple" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/🤖-Agent-lightgreen" height="16" style="vertical-align: text-bottom;"> [[paper]](https://spj.science.org/doi/10.34133/hds.0221) - *Comprehensive ECG understanding using LLMs with signal analysis, text integration, and conversational capabilities*
 - **[Arxiv, 2025]** EEG Emotion Copilot: Optimizing Lightweight LLMs for Emotional EEG Interpretation with Assisted Medical Record Generation <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/🔗-Fusion-purple" height="16" style="vertical-align: text-bottom;"> [[paper]](https://arxiv.org/pdf/2410.00166) [[code]](https://github.com/NZWANG/EEG_Emotion_Copilot) - *EEG emotion recognition with LLM backbone and multimodal fusion for personalized emotion analysis*
