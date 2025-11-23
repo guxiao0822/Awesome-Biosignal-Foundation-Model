@@ -113,6 +113,8 @@ The field of biosignal foundation models can be organized into three converging 
 [EMG]: <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/>
 
 *Building dedicated foundation models using large biosignal corpora*
+- **[NeurIPS, 2025]** PhysioWave: A Multi-Scale Wavelet-Transformer for Physiological Signal Representation <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> [[paper]](https://arxiv.org/abs/2506.10351) [[code]](https://github.com/ForeverBlue816/PhysioWave) 
+- **[NeurIPS, 2025]** BrainOmni: A Brain Foundation Model for Unified EEG and MEG Signals <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> <img src="https://img.shields.io/badge/EEG-blue" alt="MEG" height="16"/> [[paper]](https://arxiv.org/abs/2505.18185) [[code]](https://github.com/OpenTSLab/BrainOmni) 
 - **[NeurIPS, 2025]** NeurIPT: Foundation Model for Neural Interfaces <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2510.16548) [[code]](https://github.com/ZzzitaoFang/NeurIPT) 
 - **[NeurIPS, 2025]** LUNA: Efficient and Topology-Agnostic Foundation Model for EEG Signal Analysis <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2510.22257) [[code]](https://github.com/pulp-bio/biofoundation) 
 - **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM) 
