@@ -113,7 +113,6 @@ The field of biosignal foundation models can be organized into three converging 
 [EMG]: <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/>
 
 *Building dedicated foundation models using large biosignal corpora*
-- **[NeurIPS, 2025]** Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> <img src="https://img.shields.io/badge/PPG-purple" alt="PPG" height="16"/> <img src="https://img.shields.io/badge/IMU-orange" alt="IMU" height="16"/> [[paper]](https://arxiv.org/abs/2412.09758) [[code]](https://github.com/Mobile-Sensing-and-UbiComp-Laboratory/NormWear) 
 - **[NeurIPS, 2025]** NeurIPT: Foundation Model for Neural Interfaces <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2510.16548) [[code]](https://github.com/ZzzitaoFang/NeurIPT) 
 - **[NeurIPS, 2025]** LUNA: Efficient and Topology-Agnostic Foundation Model for EEG Signal Analysis <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2510.22257) [[code]](https://github.com/pulp-bio/biofoundation) 
 - **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM) 
@@ -217,7 +216,7 @@ The field of biosignal foundation models can be organized into three converging 
 [agent]: https://img.shields.io/badge/🤖-Agent-lightgreen
 
 Four functional roles of LLMs: ![tool][backbone] ![tool][knowledge] ![tool][fusion] ![tool][agent]
-
+- **[NeurIPS, 2025]** SensorLM: Learning the Language of Wearable Sensors <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://arxiv.org/abs/2506.09108)
 - **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM)- *EEG-Modal-LLM alignment for knowledge integration*
 - **[ICML, 2025]** Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://openreview.net/pdf?id=mM65b81LdM) [[code]]( https://github.com/manhph2211/D-BETA) - *ECG-text-report integration via contrastive masked autoencoding*
 - **[IEEE TBD, 2025]** Large Language Model-informed ECG Dual Attention Network for Heart Failure Risk Prediction <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://arxiv.org/abs/2403.10581) - *Heart failure risk prediction using LLM-informed dual attention network with ECG time sequences*
