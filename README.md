@@ -34,11 +34,11 @@ The field of biosignal foundation models can be organized into three converging 
 ## 📚 Surveys & Reviews
 
 - **[IEEE TPAMI, 2025]** Foundation models defining a new era in vision: a survey and outlook [[paper]](https://arxiv.org/abs/2307.13721)
-- **[ACM SIGKDD, 2024]** Foundation models for time series analysis: A tutorial and survey [[paper]](https://arxiv.org/abs/2403.14735)
-- **[Arxiv, 2024]** A survey of time series foundation models: Generalizing time series representation with large language mode [[paper]](https://arxiv.org/abs/2405.02358)
-- **[Arxiv, 2024]** Biomedical Foundation Model: A Survey [[paper]](https://arxiv.org/abs/2503.02104)
-- **[Arxiv, 2024]** Deep time series models: A comprehensive survey and benchmark [[paper]](https://arxiv.org/abs/2407.13278)
-- **[Arxiv, 2024]** Foundation Models for Video Understanding: A Survey [[paper]](https://arxiv.org/abs/2405.03770)
+- **[ACM SIGKDD, 2024]** Foundation models for time series analysis: a tutorial and survey [[paper]](https://arxiv.org/abs/2403.14735)
+- **[Arxiv, 2024]** A survey of time series foundation models: generalizing time series representation with large language mode [[paper]](https://arxiv.org/abs/2405.02358)
+- **[Arxiv, 2024]** Biomedical foundation model: a survey [[paper]](https://arxiv.org/abs/2503.02104)
+- **[Arxiv, 2024]** Deep time series models: a comprehensive survey and benchmark [[paper]](https://arxiv.org/abs/2407.13278)
+- **[Arxiv, 2024]** Foundation models for video understanding: a survey [[paper]](https://arxiv.org/abs/2405.03770)
 - **[IJCAI, 2024]** Large language models for time series: a survey [[paper]](https://arxiv.org/abs/2402.01801)
 
 ## 🔬 Datasets & Benchmarks & Tools
@@ -113,6 +113,7 @@ The field of biosignal foundation models can be organized into three converging 
 [EMG]: <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/>
 
 *Building dedicated foundation models using large biosignal corpora*
+- **[NeurIPS, 2025]** SensorLM: Learning the Language of Wearable Sensors <img src="https://img.shields.io/badge/Health--metrics-lightblue" alt="Health-metrics" height="16"/> [[paper]](https://arxiv.org/abs/2506.09108)
 - **[NeurIPS, 2025]** PhysioWave: A Multi-Scale Wavelet-Transformer for Physiological Signal Representation <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> [[paper]](https://arxiv.org/abs/2506.10351) [[code]](https://github.com/ForeverBlue816/PhysioWave) 
 - **[NeurIPS, 2025]** BrainOmni: A Brain Foundation Model for Unified EEG and MEG Signals <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> <img src="https://img.shields.io/badge/MEG-blue" alt="MEG" height="16"/> [[paper]](https://arxiv.org/abs/2505.18185) [[code]](https://github.com/OpenTSLab/BrainOmni) 
 - **[NeurIPS, 2025]** NeurIPT: Foundation Model for Neural Interfaces <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> [[paper]](https://arxiv.org/abs/2510.16548) [[code]](https://github.com/ZzzitaoFang/NeurIPT) 
@@ -218,7 +219,6 @@ The field of biosignal foundation models can be organized into three converging 
 [agent]: https://img.shields.io/badge/🤖-Agent-lightgreen
 
 Four functional roles of LLMs: ![tool][backbone] ![tool][knowledge] ![tool][fusion] ![tool][agent]
-- **[NeurIPS, 2025]** SensorLM: Learning the Language of Wearable Sensors <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://arxiv.org/abs/2506.09108)
 - **[ICML, 2025]** EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://openreview.net/pdf?id=yaI2ZYFmeD) [[code]](https://github.com/SamGijsen/ELM)- *EEG-Modal-LLM alignment for knowledge integration*
 - **[ICML, 2025]** Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://openreview.net/pdf?id=mM65b81LdM) [[code]]( https://github.com/manhph2211/D-BETA) - *ECG-text-report integration via contrastive masked autoencoding*
 - **[IEEE TBD, 2025]** Large Language Model-informed ECG Dual Attention Network for Heart Failure Risk Prediction <img src="https://img.shields.io/badge/🔧-Backbone-orange" height="16" style="vertical-align: text-bottom;"> <img src="https://img.shields.io/badge/💡-Knowledge-blue" height="16" style="vertical-align: text-bottom;"> [[paper]](https://arxiv.org/abs/2403.10581) - *Heart failure risk prediction using LLM-informed dual attention network with ECG time sequences*
