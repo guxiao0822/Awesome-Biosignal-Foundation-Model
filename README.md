@@ -72,6 +72,7 @@ The field of biosignal foundation models can be organized into three converging 
 | **HiRID** | `Vital Signs` | 34K | - | [[dataset]](https://physionet.org/content/hirid/) |
 | **UCSF-PPG** | `PPG` | 21K | 600K | [[dataset]](https://tison.ucsf.edu/ppg-diabetes) |
 | **TUEG** | `EEG` | 15K | 27K | [[dataset]](https://isip.piconepress.com/projects/tuh_eeg/) |
+| **HBN-EEG** | `EEG` | 3K | 3K | [[dataset]](https://neuromechanist.github.io/data/hbn/) |
 | **MOABB** | `EEG` | >1K | - | [[dataset]](https://moabb.neurotechx.com/) |
 | **SEED Series** | `EEG` `Gaze Metrics` | - | - | [[dataset]](https://bcmi.sjtu.edu.cn/home/seed) |
 | **emg2pose** | `EMG` | 193 | 370 | [[dataset]](https://github.com/facebookresearch/emg2pose) |
