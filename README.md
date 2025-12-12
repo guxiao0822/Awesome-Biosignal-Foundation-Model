@@ -114,6 +114,7 @@ The field of biosignal foundation models can be organized into three converging 
 [EMG]: <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/>
 
 *Building dedicated foundation models using large biosignal corpora*
+- **[Arxiv. 2025]** CLEF : Clinically-Guided Contrastive Learning for Electrocardiogram Foundation Modelss <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://www.arxiv.org/abs/2512.02180) [[code]](https://github.com/Nokia-Bell-Labs/ecg-foundation-model)
 - **[NEJM AI. 2025]** An Electrocardiogram Foundation Model Built on over 10 Million Recordings with External Evaluation across Multiple Domains <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://www.ovid.com/journals/neai/abstract/10.1056/aioa2401033~an-electrocardiogram-foundation-model-built-on-over-10?redirectionsource=fulltextview) [[code]](https://github.com/PKUDigitalHealth/ECGFounder)
 - **[JAMIA Open, 2025]** ECG-FM: An Open Electrocardiogram Foundation Model <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://academic.oup.com/jamiaopen/article/8/5/ooaf122/8287827) [[code]](https://github.com/bowang-lab/ECG-FM/)
 - **[Arxiv, 2025]** BenchECG and xECG: a benchmark and baseline for ECG foundation models <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> [[paper]](https://arxiv.org/abs/2509.10151) [[code]](https://github.com/dlaskalab/bench-xecg/)
