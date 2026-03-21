@@ -109,7 +109,7 @@ The field of biosignal foundation models can be organized into three converging 
 <!-- Badge Definitions -->
 [ECG]: <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/>
 [EEG]: <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/>
-[EOG]: <img src="https://img.shields.io/badge/EOG-lightpurple" alt="EOG" height="16"/>
+[EOG]: <img src="https://img.shields.io/badge/EOG-pink" alt="EOG" height="16"/>
 [PPG]: <img src="https://img.shields.io/badge/PPG-purple" alt="PPG" height="16"/>
 [IMU]: <img src="https://img.shields.io/badge/IMU-orange" alt="IMU" height="16"/>
 [EMG]: <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/>
@@ -118,7 +118,7 @@ The field of biosignal foundation models can be organized into three converging 
 [Health-metrics]: <img src="https://img.shields.io/badge/Health--metrics-lightblue" alt="Health-metrics" height="16"/>
 
 *Building dedicated foundation models using large biosignal corpora*
-- **[Nature Communications, 2026]** A unified time-frequency foundation model for sleep decoding <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> <img src="https://img.shields.io/badge/EOG-lightpurple" alt="EOG" height="16"/> [[paper]](https://www.nature.com/articles/s41467-025-67970-4)[[code]](https://github.com/LordXX505/SleepGPT)
+- **[Nature Communications, 2026]** A unified time-frequency foundation model for sleep decoding <img src="https://img.shields.io/badge/EEG-blue" alt="EEG" height="16"/> <img src="https://img.shields.io/badge/EMG-green" alt="EMG" height="16"/> <img src="https://img.shields.io/badge/EOG-pink" alt="EOG" height="16"/> [[paper]](https://www.nature.com/articles/s41467-025-67970-4)[[code]](https://github.com/LordXX505/SleepGPT)
 - **[Nature Communications, 2026]** A foundation model for continuous glucose monitoring data <img src="https://img.shields.io/badge/Health--metrics-lightblue" alt="Health-metrics" height="16"/> [[paper]](https://www.nature.com/articles/s41586-025-09925-9)[[code]](https://github.com/Guylu/GluFormer)
 - **[Nature, 2026]** Insulin resistance prediction from wearables and routine blood biomarkers <img src="https://img.shields.io/badge/Health--metrics-lightblue" alt="Health-metrics" height="16"/> [[paper]](https://www.nature.com/articles/s41586-026-10179-2)[[code]](https://github.com/Google-Health/consumer-health-research/tree/main/insulin_resistance_prediction)
 - **[Nature Machine Intelligence, 2026]** Cardiac health assessment across scenarios and devices using a multimodal foundation model pretrained on data from 1.7 million individuals. <img src="https://img.shields.io/badge/ECG-red" alt="ECG" height="16"/> <img src="https://img.shields.io/badge/PPG-purple" alt="PPG" height="16"/> [[paper]](https://www.nature.com/articles/s42256-026-01180-5)[[code]](https://github.com/guxiao0822/Cardiac-Sensing-FM)
