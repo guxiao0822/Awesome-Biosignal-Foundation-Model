@@ -88,6 +88,8 @@ The field of biosignal foundation models can be organized into three converging 
 
 - **MOABB** (Mother of All BCI Benchmarks): Comprehensive benchmarking framework for EEG-based brain-computer interface algorithms with standardized pipelines and evaluation protocols [[benchmark]](https://moabb.neurotechx.com/)
 
+- **EEG FM pretraining-overlap audit**: Page-cited table of 20 EEG foundation models and 142 reported downstream results, marking each as in the model's pretraining corpus, in the same TUH collection, or held out, with a controlled held-out replication of LaBraM vs. EEGNet [[table]](https://github.com/YihengLi-1/eeg-motor-imagery-decoding/blob/main/docs/pretraining_overlap_eeg_fm.md) [[report]](https://doi.org/10.5281/zenodo.23423535)
+
 ### Preprocessing Toolboxes and Packages
 
 | Toolbox/Package  | Modality | Link |
